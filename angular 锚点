@@ -10,4 +10,4 @@ myapp.controller("commonCtrl", function ($scope, $location, $anchorScroll) {
 然后在单机需要跳转的地方添加
 ng-click="goTop('id')"
 
-这样就可以实现锚点的跳转，避免冲突。
+这样就可以实现锚点的跳转，避免和路由#冲突。
